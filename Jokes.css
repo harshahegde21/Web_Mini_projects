@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+.containers{
+    height: 80vh;
+    width: 180vh;
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+#joke-container{
+    background-color: greenyellow;
+  
+    border-radius: 25px;
+}
+#text-container{
+    background-color: yellow;
+    margin-right: 20vh;
+    display: block;
+    justify-content: center;
+    animation-name: moveup;
+    animation-duration: 2s;
+}
+@keyframes moveup {
+    from{transform: translateY(50%);}
+    
+}
+.joke-heading{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#lol-emoji{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.lol-textdiv{
+    margin-top: 25%;
+    margin-left: 25%;
+}
+#texts{
+    width: 500px;
+    height: 175px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: yellow;
+}
+#theory{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: moveright;
+    animation-duration: 2s infinite;
+    animation-delay: 1s;
+    margin-left: 30px;
+
+}
+@keyframes moveright {
+    from{transform: translateX(-50px);}
+}
+#joke{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    margin-left: 30px;
+}
+#lol-img{
+    margin-left: 25%;
+}
+#generate-btn{
+    margin-top: 25px;
+    margin-left: 35%;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(144, 212, 43);
+    
+    font: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    border: solid;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+    
+}
+#keep-smile-div{
+    margin-left: 28%;
+    margin-top: 20%;
+}
+#keep-smile-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
